@@ -1,0 +1,16 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+        "lib": ["DOM"],
+        "module": "CommonJS",
+        "target": "ES2017",
+        "moduleResolution": "node",
+        "outDir": "../../dist/preloader/",
+        "rootDir": ".",
+        "composite": true,
+        "paths": { "multibot/types": ["../../../../multibot/"] },
+    },
+    "references": [
+        { "path": "../../../../multibot/" }
+    ]
+}

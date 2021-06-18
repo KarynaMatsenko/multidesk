@@ -1,0 +1,9 @@
+:root {
+    --ticket-list-background-color: #E5D1D0;
+}
+
+.ticket-list {
+    width: 100%;
+    height: fit-content;
+    background-color: var(--ticket-list-background-color);
+}

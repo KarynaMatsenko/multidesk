@@ -1,0 +1,13 @@
+.back-button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.back-button > img {
+    width: 100%;
+    height: 100%;
+}

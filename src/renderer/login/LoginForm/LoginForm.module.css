@@ -1,0 +1,12 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form > .button {
+    height: 36px;
+}
+
+.login-form > input, .login-form > .button {
+    margin-bottom: 10px;
+}

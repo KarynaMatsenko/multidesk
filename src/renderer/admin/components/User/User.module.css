@@ -1,0 +1,26 @@
+.user {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    /* border-radius: 10px;
+    border: 1px solid black; */
+    height: fit-content;
+    margin: 10px 0;
+}
+
+.user-login {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 10px;
+    background-color: rgba(229, 209, 208, 0.7);
+}
+
+.delete-button {
+    width: 95px;
+    height: 36px;
+    margin-left: 5px;
+}

@@ -1,0 +1,36 @@
+:root {
+    --active-ticket-color: #839788;
+    --active-ticket-font-color: white;
+}
+
+.ticket {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid grey 1px;
+    cursor: pointer;
+}
+
+.ticket.active {
+    background-color: var(--active-ticket-color);
+    color: var(--active-ticket-font-color);
+}
+
+.ticket.active img {
+    filter: invert(1);
+}
+
+.profilePicture {
+    border-radius: 45%;
+    width: 42px;
+    height: 42px;
+    padding-right: 16px;
+}
+
+.profilePicture > img {
+    width: 100%;
+    height: 100%;
+}

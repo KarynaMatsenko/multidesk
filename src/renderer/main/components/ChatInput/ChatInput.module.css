@@ -1,0 +1,30 @@
+.chat-input {
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    border-top: solid lightgray 1px;
+    align-items: center;
+    padding: 4px;
+}
+
+.chat-input > input {
+    flex-grow: 1;
+    border: none;
+    height: 100%;
+    font-size: 16px;
+}
+
+.chat-input > input:focus {
+    outline: none;
+}
+
+.send-button {
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+}
+
+.send-button > img {
+    width: 100%;
+    height: 100%;
+}
